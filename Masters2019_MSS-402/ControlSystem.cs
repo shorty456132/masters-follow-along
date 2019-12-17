@@ -132,7 +132,7 @@ namespace Masters2019_MSS_402
         /// <param name="systemEventType"></param>
         void ControlSystem_ControllerSystemEventHandler(eSystemEventType systemEventType)
         {
-            CrestronConsole.PrintLine("Something");
+            CrestronConsole.PrintLine("Something ");
             CrestronConsole.PrintLine("System Event Type: {0}",systemEventType);
             switch (systemEventType)
             {
